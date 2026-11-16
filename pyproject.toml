@@ -1,0 +1,29 @@
+[project]
+name = "d3h-polarimetry"
+version = "0.1.0"
+description = "Fixed- and rotating-analyzer D3h SHG polarimetry with interactive ROI/POI analysis"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+dependencies = [
+    "matplotlib>=3.9.4", "numpy>=2.0.2", "pillow>=11.3.0",
+    "tifffile>=2024.8.30", "scipy>=1.15.0", "pandas>=2.3.3",
+    "xarray>=2025.1.0",
+]
+
+[project.scripts]
+d3h-polarization = "d3h_polarimetry.cli.run_polarization:main"
+
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

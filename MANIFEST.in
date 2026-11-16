@@ -1,0 +1,6 @@
+include LICENSE README.md AGENTS.md pyproject.toml uv.lock run_polarization.py
+recursive-include docs *.md *.json
+recursive-include sample_data README.md
+recursive-include scripts *.py
+recursive-include tests *.py
+recursive-include .github *.yml
