@@ -1,0 +1,39 @@
+Scan Settings Kami:
+Number of lines: 500,000000
+Points Per Line:  500,000000
+Sample Rate (Hz):  330000,000000
+Scans per line: 1,000000
+Top Left h : -0,600000V
+Top Left v : 0,600000V
+Bottom Right h : -0,600000V
+Bottom Right v : 0,600000V
+
+
+Scan Settings Shinigami:
+Number of lines: 500,000000
+Points Per Line:  500,000000
+Sample Rate (Hz):  330000,000000
+Scans per line: 1,000000
+Top Left h : -1,000000V
+Top Left v : -1,000000V
+Bottom Right h : 1,000000V
+Bottom Right v : 1,000000V
+
+Current angle nutral:47,000000
+Images Stack :  5,000000
+Image offset :  -34,000000
+
+
+Exp Parameters
+R HOME: 80,999900   R Step DG: 1,000000    R Length DG: 180,000000
+Y not used
+
+START  POINTS:
+X not used
+X HOME :  1,129294
+Z not used
+Y HOME :  3,253447
+Z HOME :  1,358361
+R HOME :  80,999900
+
+Seconds for frame:0,000000

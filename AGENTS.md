@@ -15,4 +15,6 @@ sliding windows and twist arithmetic are in `pipeline_sliding.py` and
 
 Run `uv run pytest`, `uv run d3h-polarization --help`, and `git diff --check`.
 For changes to science, compare before/after numerical outputs explicitly.
-Never commit microscopy data, result tables, caches, environments, or build artifacts.
+The user-supplied TIFF images and DAT files under sample_data/ are intentionally
+versioned. Do not commit other microscopy data, result tables, caches,
+environments, or build artifacts.

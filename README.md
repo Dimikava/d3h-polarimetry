@@ -92,8 +92,9 @@ are excluded.
 
 ## Sample data and development
 
-Place local data under [sample_data](sample_data/README.md). Images, metadata,
-results, and caches are excluded from Git. Real-data comparison awaits supplied samples.
+Example TIFF images and acquisition DAT files are included under
+[sample_data](sample_data/README.md). Other microscopy data, generated results,
+and caches are excluded from Git. Real-data analysis equivalence remains unverified.
 
 ```powershell
 uv sync --locked

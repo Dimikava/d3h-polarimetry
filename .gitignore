@@ -13,8 +13,6 @@ dist/
 .test-runs/
 .DS_Store
 Thumbs.db
-sample_data/*
-!sample_data/README.md
 results/
 Results/
 *.npz
@@ -23,3 +21,7 @@ Results/
 *.csv
 *.dat
 !tests/fixtures/**
+!sample_data/**/
+!sample_data/**/*.tif
+!sample_data/**/*.tiff
+!sample_data/**/*.dat
